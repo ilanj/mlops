@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "fastapi-square"
+version = "0.1.0"
+description = "A FastAPI service that returns the square of a number"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
