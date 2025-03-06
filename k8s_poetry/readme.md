@@ -1,9 +1,9 @@
 # load images to minikube
-        * minikube start
-        * minikube image load fastapi-square:1.1  
-        * kubectl apply -f deployment.yaml 
-        * kubectl apply -f service.yaml 
-        * minikube service fastapi-service
+ * minikube start
+ * minikube image load fastapi-square:1.1  
+ * kubectl apply -f deployment.yaml 
+ * kubectl apply -f service.yaml 
+ * minikube service fastapi-service
 
         from above command you could get a result like "🏃  Starting tunnel for service fastapi-service.
         |-----------|-----------------|-------------|------------------------|
