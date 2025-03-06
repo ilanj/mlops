@@ -1,6 +1,5 @@
 # load images to minikube
-        minikube start
-
+        * minikube start
         * minikube image load fastapi-square:1.1  
         * kubectl apply -f deployment.yaml 
         * kubectl apply -f service.yaml 
