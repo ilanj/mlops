@@ -1,4 +1,4 @@
-#load images to minikube
+# load images to minikube
         minikube start
 
         * minikube image load fastapi-square:1.1  
